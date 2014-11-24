@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="kb50.phonedialler.MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/text_size"
+    android:text="@string/phone_number" />
+
+    	
+        <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="center" >
+    
+            <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="@dimen/text_size"
+	        android:maxWidth="20dp"
+		    android:text="@string/plus" />
+		                    
+            <EditText 
+	        android:id="@+id/phone_input_country"
+	        android:inputType="phone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:maxWidth="100dp"
+	        android:hint="@string/hint_c" />
+	        
+			<EditText 
+	        android:id="@+id/phone_input_number"
+	        android:inputType="phone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/hint_n" />
+	        
+            
+    	</LinearLayout>
+    
+
+    
+    <Button 
+        android:id="@+id/show_country"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_country"
+        android:onClick="onClick" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="center" >
+   		
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_1"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_2"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_3"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="center" >
+   		
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_4"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_5"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_6"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="center" >
+   		
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_7"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_8"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_9"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="center" >
+   		
+        <Button
+            android:id="@+id/btn_ocd"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_ocd"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_0"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:text="@string/btn_back"
+       		android:onClick="onClick"
+            style="?android:attr/buttonStyleSmall"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>

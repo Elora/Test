@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Telephone applicatie</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings2">Settings</string>
+    <string name="title_activity_country">LandActiviteit</string>
+
+    <!-- EditText hints -->
+    <string name="hint_c">Land</string>
+    <string name="hint_n">Telephone nummer zonder 0</string>
+
+    <!-- Button text -->
+    <string name="btn_country">Laat land zien</string>
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_back">Terug</string>
+    <string name="btn_ocd">OCD</string>
+    <string name="btn_call">Bellen</string>
+
+    <!-- Misc -->
+    <string name="country">Er ging iets mis!</string>
+    <string name="numberph">Nummer</string>
+    <string name="plus">+</string>
+    <string name="phone_number">Enter telephone nummer</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_world">Hallo wereld!</string>
+
+</resources>
